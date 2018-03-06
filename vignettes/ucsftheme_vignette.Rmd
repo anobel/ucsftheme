@@ -1,0 +1,22 @@
+---
+title: "UCSF Colors Theme"
+author: "Anobel Y. Odisho"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package allows use of UCSF color themes with ggplot2 and a basic RMarkdown template so that figures made with R match our UCSF document and presentation templates. All data are sourced from http://identity.ucsf.edu
+
+## Usage
+not sure yet.
