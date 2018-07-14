@@ -9,7 +9,7 @@ Description: Provides color palettes and markdown themes
     for use in R that adhere to UCSF Brand Identity guidelines
     found at http://identity.ucsf.edu. Basically, to make your R
     output match official templates.
-Date: 2018-3-5
+Date: 2018-7-14
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

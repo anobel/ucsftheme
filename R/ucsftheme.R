@@ -42,6 +42,7 @@ ucsf_colors <- c(
   `yellow1` = "#FFFCE6"
   )
 
+
 #' Function to extract official UCSF colors as hex codes.
 #'
 #' Executing this function without
@@ -56,6 +57,7 @@ ucsf_colors <- c(
 #' For example, full strength is called "blue", the 70\% tint is "blue3", the 40\% tint
 #' is "blue2", and the 10\% tint is "blue1"
 
+#' @export
 #' @param ... Character names of UCSF color.
 #'
 #' @examples
@@ -69,7 +71,6 @@ ucsf_colors <- c(
 #' ucsf_col("yellow")
 #' ucsf_col("red3")
 
-
 ucsf_col <- function(...) {
   cols <- c(...)
 
@@ -79,6 +80,7 @@ ucsf_col <- function(...) {
   ucsf_colors[cols]
 }
 
+# Creating UCSF Color Palettes
 ucsf_palettes <- list(
   `main`  = ucsf_col("navy", "teal", "green", "blue", "orange"),
 
@@ -98,6 +100,7 @@ ucsf_palettes <- list(
 
   `yellows`  = ucsf_col("yellow", "yellow3", "yellow2", "yellow1")
 )
+
 
 #' Return function to interpolate a UCSF color palette
 #' @export
@@ -121,6 +124,7 @@ ucsf_pal <- function(palette = "main", reverse = FALSE, ...) {
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_color_gradientn(), used respectively when discrete is TRUE or FALSE
 #'
+
 scale_color_ucsf <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- ucsf_pal(palette = palette, reverse = reverse)
 
