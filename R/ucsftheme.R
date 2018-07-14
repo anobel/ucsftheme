@@ -149,4 +149,3 @@ scale_fill_ucsf <- function(palette = "main", discrete = TRUE, reverse = FALSE, 
     scale_fill_gradientn(colours = pal(256), ...)
   }
 }
-
