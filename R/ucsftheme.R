@@ -4,10 +4,10 @@ ucsf_colors <- c(
   `navy`                   = "#052049",
   `navy3` = "#506380",
   `navy2` = "#9BA6B6",
-  `navy` = "#E6E9ED",
+  `navy1` = "#E6E9ED",
   `teal inter`       = "#058488",
   `teal` = "#18A3AC",
-  `tealn3`  = "#5DBFC5",
+  `teal3`  = "#5DBFC5",
   `teal2` = "#A3DADE",
   `teal1` = "#E8F6F7",
   `green inter`                  = "#6EA400",
@@ -100,7 +100,7 @@ ucsf_palettes <- list(
 )
 
 #' Return function to interpolate a UCSF color palette
-#'
+#' @export
 #' @param palette Character name of palette in ucsf_palettes
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments to pass to colorRampPalette()
@@ -114,7 +114,7 @@ ucsf_pal <- function(palette = "main", reverse = FALSE, ...) {
 }
 
 #' Color scale constructor for UCSF colors
-#'
+#' @export
 #' @param palette Character name of palette in ucsf_palettes
 #' @param discrete Boolean indicating whether color aesthetic is discrete or not
 #' @param reverse Boolean indicating whether the palette should be reversed
@@ -133,7 +133,7 @@ scale_color_ucsf <- function(palette = "main", discrete = TRUE, reverse = FALSE,
 
 
 #' Fill scale constructor for ucsf colors
-#'
+#' @export
 #' @param palette Character name of palette in ucsf_palettes
 #' @param discrete Boolean indicating whether color aesthetic is discrete or not
 #' @param reverse Boolean indicating whether the palette should be reversed
