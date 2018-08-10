@@ -84,9 +84,21 @@ ucsf_col <- function(...) {
 ucsf_palettes <- list(
   `main`  = ucsf_col("navy", "teal", "green", "blue", "orange"),
 
+  `mainlight`  = ucsf_col("navy3", "teal3", "green3", "blue3", "orange3"),
+
+  `mainlighter`  = ucsf_col("navy2", "teal2", "green2", "blue2", "orange2"),
+
   `main2`  = ucsf_col("navy", "green", "blue", "orange", "teal"),
 
+  `main2light`  = ucsf_col("navy3", "green3", "blue3", "orange3", "teal3"),
+
+  `main2lighter`  = ucsf_col("navy2", "green2", "blue2", "orange2", "teal2"),
+
   `main3`  = ucsf_col("navy", "teal", "green", "blue"),
+
+  `main3light`  = ucsf_col("navy3", "teal3", "green3", "blue3"),
+
+  `main3lighter`  = ucsf_col("navy2", "teal2", "green2", "blue2"),
 
   `navies`  = ucsf_col("navy", "navy3", "navy2", "navy1"),
 
