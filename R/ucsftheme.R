@@ -84,6 +84,10 @@ ucsf_col <- function(...) {
 ucsf_palettes <- list(
   `main`  = ucsf_col("navy", "teal", "green", "blue", "orange"),
 
+  `main2`  = ucsf_col("navy", "green", "blue", "orange", "teal"),
+
+  `main3`  = ucsf_col("navy", "teal", "green", "blue"),
+
   `navies`  = ucsf_col("navy", "navy3", "navy2", "navy1"),
 
   `teals`  = ucsf_col("teal", "teal3", "teal2", "teal1"),
